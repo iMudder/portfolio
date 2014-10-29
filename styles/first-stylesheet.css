@@ -34,7 +34,9 @@ nav {
 }
 
 img:hover {
-            transform: rotate(90deg);
+/*          transform: rotate(90deg); */
+            -ms-transform: rotate(90deg); /* IE 9 */
+            -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
             box-shadow:inset 1px 1px 10px 1px pink;
 }
 
@@ -46,7 +48,9 @@ img#social {
 }
 
 img#social:hover {
-                  transform: rotate(45deg);
+/*                transform: rotate(45deg); */
+                  -ms-transform: rotate(45deg); /* IE 9 */
+                  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
                   box-shadow: inset 1px 1px 10px 1px pink;
 }
 
