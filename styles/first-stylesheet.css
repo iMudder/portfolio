@@ -1,0 +1,93 @@
+h1 {
+    font-family: cursive;
+    font-size: 4em;
+    color: rgba(113, 96, 240, 1);
+    line-height: 20px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 3em;
+    color: hsla(337, 100%, 50%, 0.5);
+    line-height: 200%;
+}
+
+h3 {
+    font-family: fantasy;
+    font-size: 2em;
+    color: #123FED;
+	font-variant: small-caps;
+}
+
+nav {
+      background-color: pink;
+      font-family: sans-serif; 
+      border: 5px solid cyan;
+      border-top-left-radius: 2em;
+      border-bottom-right-radius: 5em;
+      outline: none solid 5px;
+      padding: 10px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      box-shadow: 10px 10px 15px #888888;
+      max-width: 150px;
+}
+
+img:hover {
+            transform: rotate(90deg);
+            box-shadow:inset 1px 1px 10px 1px pink;
+}
+
+img#social {
+             padding: 1em; 
+             box-shadow: inset 1px 1px 15px 1px black;
+             border-bottom-right-radius: 5em;
+             border-color: purple, 12em;
+}
+
+img#social:hover {
+                  transform: rotate(45deg);
+                  box-shadow: inset 1px 1px 10px 1px pink;
+}
+
+summary {
+          color: #3112FF;
+          text-shadow: 15px 10px 25px #000000;
+}
+
+mark#enlarge:hover {
+                    color: white;
+                    font-size: 2em;
+                    background-color: black;
+}
+
+#TBB2013-CoachSummit {
+                      font-family: sans-serif;
+                      color: white;
+                      font-weight: bold;
+                      border: 5px solid #123456;
+                      border-top-left-radius: 2em;
+                      border-top-right-radius: 5em;
+                      padding: 10px;
+                      margin: 10px;       
+                      box-shadow: 10px 10px 5px #888888;
+                      max-width: 400px;
+                      background-image: url('../images/Paper_09.jpg');
+}
+
+#bq-special {
+          color: #666;
+          background: #EEE;
+          margin: 0 0 1.6em 0.8em;
+          padding: 1.4em 1em 1em 1em;
+          border-left: 5px solid #7F1315;
+}
+
+small {
+        line-height: 400%;
+}
+
+small.center {
+              text-align: center;
+              color: red;
+}
