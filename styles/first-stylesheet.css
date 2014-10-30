@@ -40,14 +40,14 @@ img:hover {
             box-shadow:inset 1px 1px 10px 1px pink;
 }
 
-img#social {
+img.social {
              padding: 1em; 
              box-shadow: inset 1px 1px 15px 1px black;
              border-bottom-right-radius: 5em;
              border-color: purple, 12em;
 }
 
-img#social:hover {
+img.social:hover {
                   transform: rotate(45deg); /* Firefox */
                   -ms-transform: rotate(45deg); /* IE 9 */
                   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
