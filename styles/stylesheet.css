@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+section#hcde-projects {
+                        float: left;
+                        margin: 0;
+                        padding: 0;
+                        padding-right: .5em;
+                        width: 60%;
+}
+
+section#nonhcde-projects {
+                          float: right;
+                          margin: 0;
+                          padding: 0;
+                          padding-left: 1rem;
+                          padding-right: .5rem;
+                          width: 35%;
+                          border-left: 5px solid black;
+}
+
+header {
+        margin: 0px;
+        padding-top: 20px;
+        background-color: #C1E057;
+        width: 99%;
+        height: 6rem;
+        margin-bottom: .25rem;
+}
+
+header h1 {
+          font-family: 'Gloria Hallelujah', cursive;
+          font-size: 40px;
+          line-height: 80%;
+}
+
+nav {
+      padding: 0px;
+      padding-top: 4px;
+      padding-bottom: 2px;
+      width: 100%;
+      font-weight: bold;
+      margin-bottom: .5rem;
+}
+
+nav li {
+          display: inline-block;
+          padding-left: .5rem;
+          padding-right: .5rem;
+          border-left: 2px solid black;
+}
+
+nav li:first-of-type {
+                        padding-left: .75rem;
+                        border-left: none;
+}
+
+article#518 {
+                background-color: #57DFDD;
+                width: 100%;
+                height: 75%;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 1rem;
+}
+
+article#block {
+                background-color: #57BEDF;
+                width: 100%;
+                height: 120px;
+                margin-bottom: 1rem;
+}
+
+article#headline {
+                  background-color: #DFD758;
+                  color: white;
+                  width: 99%;
+                  padding: 3% 0% 3% 1%;
+                  margin-bottom: 2%;
+                  padding-right: 1.5%;
+                  height: 5%;
+}
+
+article#story {
+                background-color: white;
+                width: 99%;
+                overflow: scroll;
+                margin-bottom: 2%;
+                padding: 1.25% 1.25% 1.25% 1.25%;
+                height: 80%;
+}
+
+footer {
+          clear: both;        
+          float: left;
+          background-color: #AEAFB1;
+          width: 60%;
+          text-align: left;
+          margin-bottom: 2%;
+          color: black;
+          height: 10%%;
+}
+
+p {
+	font-family: sans-serif;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 80%;
+    font-size: 30px;
+}
+
+.#{$fa-css-prefix}-border {
+                            padding: .2em .25em .15em;
+                            border: solid .08em $fa-border-color;
+                            border-radius: .1em;
+                          }
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.#{$fa-css-prefix} {
+                    &.pull-left { margin-right: .3em; }
+                    &.pull-right { margin-left: .8em; }
+}
+
+.#{$fa-css-prefix}-spin {
+                          -webkit-animation: fa-spin 2s infinite linear;
+                          animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+                              0% {
+                                  -webkit-transform: rotate(0deg);
+                                  transform: rotate(0deg);
+                              }
+  
+                              100% {
+                                  -webkit-transform: rotate(359deg);
+                                  transform: rotate(359deg);
+                                  }
+}
+
+@keyframes fa-spin {
+                    0% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+  
+                    100% {
+                          -webkit-transform: rotate(359deg);
+                          transform: rotate(359deg);
+                    }
+}
